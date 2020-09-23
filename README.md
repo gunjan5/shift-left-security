@@ -4,13 +4,18 @@ This is the acompanying repo for my talk on Shift-Left Security in a Containeriz
 
 🔥 You can [access the slides here 🖱️](https://1drv.ms/p/s!AjlYT48sX1DwgQDDWwT7wiCAz5u4?e=SPY0ye)
 
+#### My Other Related Repos
+- [Container Security Best Practices](https://github.com/gunjan5/container-security)
+- [Container Security Checklist with Risk Scores](https://github.com/gunjan5/cloud-native-security)
+- [Fun: Container from Scratch](https://github.com/gunjan5/container-from-scratch)
+
 _"An ounce of prevention is worth a pound of cure"_ - Benjamin Franklin
 
 ![](sdlc.gif)
 
 ## Security Tools for Different SDLC Stages
 
-### Development
+### Development Security
 
 **Code Scanning**
 
@@ -31,7 +36,19 @@ _"An ounce of prevention is worth a pound of cure"_ - Benjamin Franklin
 - [Clair](https://coreos.com/clair/docs/latest/)
 
 
-### CI/CD
+### CI/CD Pipeline Security
+
+**Code Scanning** (same as above)
+<details><summary>show</summary>
+<p>
+  
+- [GoSec](https://securego.io/) (Go)
+- [Bandit](https://github.com/PyCQA/bandit) (Python)
+- [NodeJsScan](https://github.com/ajinabraham/NodeJsScan) (NodeJS)
+- [SpotBugs](https://spotbugs.github.io/) (Java)
+
+</p>
+</details>
 
 **DAST**
 
@@ -42,8 +59,28 @@ _"An ounce of prevention is worth a pound of cure"_ - Benjamin Franklin
 
 - [Contrast Community Edition (CE)](https://www.contrastsecurity.com/contrast-community-edition)
 
+**Kubernetes Manifest Scanning** (same as above)
+<details><summary>show</summary>
+<p>
+  
+- [KubeSec](https://github.com/controlplaneio/kubesec)
+- [Prisma Cloud IaC](https://docs.paloaltonetworks.com/prisma/prisma-cloud/prisma-cloud-admin/prisma-cloud-devops-security/set-up-your-prisma-cloud-configuration-file-for-iac-scan.html#id3fa84acb-db42-46ab-a3bc-d19e7589c47e)
 
-### Pre-deployment
+</p>
+</details>
+
+**Container Image Scanning** (same as above)
+<details><summary>show</summary>
+<p>
+  
+- [Prisma Cloud Compute](https://docs.paloaltonetworks.com/prisma/prisma-cloud/prisma-cloud-admin-compute.html)
+- [JFrog](https://jfrog.com/xray/)
+- [Clair](https://coreos.com/clair/docs/latest/)
+
+</p>
+</details>
+
+### Pre-deployment Security
 
 **Kubernetes Admission Controller**
 
@@ -56,9 +93,9 @@ _"An ounce of prevention is worth a pound of cure"_ - Benjamin Franklin
 - [Binary Authorization](https://cloud.google.com/binary-authorization/)
 
 
-### Runtime
+### Runtime Security
 
-**Network**
+**Network Security**
 
 - [CN-series](https://docs.paloaltonetworks.com/cn-series.html)
 - [Calico](https://www.projectcalico.org/)
@@ -66,12 +103,12 @@ _"An ounce of prevention is worth a pound of cure"_ - Benjamin Franklin
 - [Prisma Cloud Compute](https://docs.paloaltonetworks.com/prisma/prisma-cloud/prisma-cloud-admin-compute.html)
 - [HashiCorp Consul](https://www.hashicorp.com/products/consul/multi-platform-service-mesh)
 
-**Behavior**
+**Behavior Security**
 
 - [Prisma Cloud Compute](https://docs.paloaltonetworks.com/prisma/prisma-cloud/prisma-cloud-admin-compute.html)
 - [Falco](https://github.com/falcosecurity/falco)
 
-**Access**
+**Access Security**
 
 - [IAM Analyzer](https://docs.aws.amazon.com/IAM/latest/UserGuide/what-is-access-analyzer.html)
 - [RBAC](https://kubernetes.io/docs/reference/access-authn-authz/rbac/)
@@ -84,7 +121,7 @@ _"An ounce of prevention is worth a pound of cure"_ - Benjamin Franklin
 
 **OS Hardening**
 
-- [Google COS](https://cloud.google.com/container-optimized-os/docs/concepts/features-and-benefits)
+- [Google Container-Optimized OS](https://cloud.google.com/container-optimized-os/docs/concepts/features-and-benefits)
 
 ## Reference Architecture Using Prisma Cloud and CN-Series 
 
