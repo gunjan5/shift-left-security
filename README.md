@@ -2,7 +2,7 @@
 
 This is the acompanying repo for my talk on Shift-Left Security in a Containerized World at DevOps World conference
 
-You can [access the slides here 🖱️](https://1drv.ms/p/s!AjlYT48sX1DwgQDDWwT7wiCAz5u4?e=SPY0ye)
+🔥 You can [access the slides here 🖱️](https://1drv.ms/p/s!AjlYT48sX1DwgQDDWwT7wiCAz5u4?e=SPY0ye)
 
 _"An ounce of prevention is worth a pound of cure"_ - Benjamin Franklin
 
@@ -51,9 +51,12 @@ _"An ounce of prevention is worth a pound of cure"_ - Benjamin Franklin
 - [Open Policy Agent](https://www.openpolicyagent.org/)
 - [Pod Security Policy](https://kubernetes.io/docs/concepts/policy/pod-security-policy/)
 
+**Security Gates**
+
+- [Binary Authorization](https://cloud.google.com/binary-authorization/)
+
 
 ### Runtime
-
 
 **Network**
 
@@ -61,6 +64,7 @@ _"An ounce of prevention is worth a pound of cure"_ - Benjamin Franklin
 - [Calico](https://www.projectcalico.org/)
 - [Istio](https://istio.io/)
 - [Prisma Cloud Compute](https://docs.paloaltonetworks.com/prisma/prisma-cloud/prisma-cloud-admin-compute.html)
+- [HashiCorp Consul](https://www.hashicorp.com/products/consul/multi-platform-service-mesh)
 
 **Behavior**
 
@@ -77,6 +81,10 @@ _"An ounce of prevention is worth a pound of cure"_ - Benjamin Franklin
 - [gVisor](https://github.com/google/gvisor)
 - [Kata Containers](https://katacontainers.io/)
 - [Nabla Containers](https://nabla-containers.github.io/)
+
+**OS Hardening**
+
+- [Google COS](https://cloud.google.com/container-optimized-os/docs/concepts/features-and-benefits)
 
 ## Reference Architecture Using Prisma Cloud and CN-Series 
 
