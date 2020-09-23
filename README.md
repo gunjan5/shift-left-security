@@ -77,3 +77,7 @@ _"An ounce of prevention is worth a pound of cure"_ - Benjamin Franklin
 - [gVisor](https://github.com/google/gvisor)
 - [Kata Containers](https://katacontainers.io/)
 - [Nabla Containers](https://nabla-containers.github.io/)
+
+## Reference Architecture Using Prisma Cloud and CN-Series 
+
+![](reference-architecture.jpg)
