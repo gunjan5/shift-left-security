@@ -1,6 +1,6 @@
 # Shift Left (Preventive) Security for Containers/Kubernetes
 
-This is the acompanying repo for my talk on Shift-Left Security in a Containerized World at DevOps World conference
+Accompanying repo for my talk on Shift-Left Security in a Containerized World at DevOps World conference
 
 🔥 You can [access the slides here 🖱️](https://1drv.ms/p/s!AjlYT48sX1DwgQDDWwT7wiCAz5u4?e=SPY0ye)
 
