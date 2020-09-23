@@ -6,6 +6,8 @@ You can [access the slides here 🖱️](https://1drv.ms/p/s!AjlYT48sX1DwgQDDWwT
 
 _"An ounce of prevention is worth a pound of cure"_ - Benjamin Franklin
 
+![](sdlc.gif)
+
 ## Security Tools for Different SDLC Stages
 
 ### Development
